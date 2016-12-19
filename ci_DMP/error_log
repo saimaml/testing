@@ -1,0 +1,4 @@
+[17-Nov-2016 05:24:50 Etc/GMT] PHP Fatal error:  Call to undefined method Welcome::get_lat_long() in /home/discovermypet/public_html/ci_DMP/application/controllers/Welcome.php on line 1019
+[17-Nov-2016 05:25:27 Etc/GMT] PHP Fatal error:  Call to undefined method Welcome::get_lat_long() in /home/discovermypet/public_html/ci_DMP/application/controllers/Welcome.php on line 1019
+[17-Nov-2016 06:19:18 Etc/GMT] PHP Parse error:  syntax error, unexpected '/' in /home/discovermypet/public_html/ci_DMP/application/controllers/Welcome.php on line 1014
+[17-Nov-2016 06:22:47 Etc/GMT] PHP Fatal error:  Call to a member function data() on a non-object in /home/discovermypet/public_html/ci_DMP/application/controllers/Welcome.php on line 1012

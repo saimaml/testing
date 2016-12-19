@@ -1,0 +1,16 @@
+[28-Sep-2016 13:41:33 Etc/GMT] PHP Notice:  Undefined variable: name in /home/discovermypet/public_html/pet/email/registration.php on line 68
+[28-Sep-2016 13:41:33 Etc/GMT] PHP Notice:  Undefined variable: email in /home/discovermypet/public_html/pet/email/registration.php on line 76
+[28-Sep-2016 13:41:33 Etc/GMT] PHP Notice:  Undefined variable: email in /home/discovermypet/public_html/pet/email/registration.php on line 76
+[28-Sep-2016 13:41:33 Etc/GMT] PHP Notice:  Undefined variable: password in /home/discovermypet/public_html/pet/email/registration.php on line 84
+[28-Sep-2016 14:07:04 Etc/GMT] PHP Notice:  Undefined variable: name in /home/discovermypet/public_html/pet/email/registration.php on line 68
+[28-Sep-2016 14:07:04 Etc/GMT] PHP Notice:  Undefined variable: email in /home/discovermypet/public_html/pet/email/registration.php on line 76
+[28-Sep-2016 14:07:04 Etc/GMT] PHP Notice:  Undefined variable: email in /home/discovermypet/public_html/pet/email/registration.php on line 76
+[28-Sep-2016 14:07:04 Etc/GMT] PHP Notice:  Undefined variable: password in /home/discovermypet/public_html/pet/email/registration.php on line 84
+[01-Oct-2016 06:27:45 Etc/GMT] PHP Notice:  Undefined variable: name in /home/discovermypet/public_html/pet/email/registration.php on line 68
+[01-Oct-2016 06:27:45 Etc/GMT] PHP Notice:  Undefined variable: email in /home/discovermypet/public_html/pet/email/registration.php on line 76
+[01-Oct-2016 06:27:45 Etc/GMT] PHP Notice:  Undefined variable: email in /home/discovermypet/public_html/pet/email/registration.php on line 76
+[01-Oct-2016 06:27:45 Etc/GMT] PHP Notice:  Undefined variable: password in /home/discovermypet/public_html/pet/email/registration.php on line 84
+[01-Oct-2016 08:13:35 Etc/GMT] PHP Notice:  Undefined variable: name in /home/discovermypet/public_html/pet/email/registration.php on line 68
+[01-Oct-2016 08:13:35 Etc/GMT] PHP Notice:  Undefined variable: email in /home/discovermypet/public_html/pet/email/registration.php on line 76
+[01-Oct-2016 08:13:35 Etc/GMT] PHP Notice:  Undefined variable: email in /home/discovermypet/public_html/pet/email/registration.php on line 76
+[01-Oct-2016 08:13:35 Etc/GMT] PHP Notice:  Undefined variable: password in /home/discovermypet/public_html/pet/email/registration.php on line 84

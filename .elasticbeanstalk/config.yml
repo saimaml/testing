@@ -1,0 +1,14 @@
+branch-defaults:
+  master:
+    environment: Custom-env-1
+environment-defaults:
+  Custom-env-1:
+    branch: null
+    repository: null
+global:
+  application_name: Latest DMP
+  default_ec2_keyname: Saima
+  default_platform: 64bit Amazon Linux 2016.09 v2.2.0 running PHP 5.6
+  default_region: ap-south-1
+  profile: eb-cli
+  sc: git

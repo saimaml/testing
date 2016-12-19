@@ -1,0 +1,36 @@
+<Files "working_key.txt">
+Order Allow,Deny
+Deny from all
+</Files>
+
+<Files "access_code.txt">
+Order Allow,Deny
+Deny from all
+</Files>
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME}.php -f
+#RewriteRule ^(.*)$ $1.php [NC,L]
+
+RewriteCond %{HTTP_HOST} ^discovermypet.in [NC]
+RewriteRule ^(.*)$ http://www.discovermypet.in/$1 [L,R=301,NC]
+
+RewriteRule ^([a-z0-9_-]+)(/)?$ $1.php [L]
+
+#main cat
+RewriteRule ^([a-z0-9_-]+)/([a-z0-9_-]+)/([a-z0-9_-]+)(/)?$ $3.php?id=$2&link1=$1 [L]
+
+#details
+#RewriteRule ^([a-z0-9_-]+)/([0-9]+)/([a-z0-9_-]+)(/)?$ $3.php?id=$2&link1=$1 [L] 
+
+#sub cat
+RewriteRule ^([a-z0-9_-]+)/([a-z0-9_-]+)/([0-9]+)/([a-z0-9_-]+)(/)?$ $4.php?cat_id=$3&link2=$2&link1=$1 [L]
+
+
+#service
+RewriteRule ^([a-z0-9_-]+)/([a-z0-9_-]+)/([0-9]+)/([a-z0-9_-]+)(/)?$ $4.php?city=$2&id=$3&link1=$1 [L] 
+
+
+
+
